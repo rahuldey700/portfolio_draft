@@ -1,5 +1,8 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-left:30 px;
+    margin-bottom: 30px;
 }
 
 header {
@@ -10,6 +13,8 @@ header {
 
 section {
     margin: 20px;
+    margin-left:30 px;
+    margin-bottom: 30px;
 }
 
 footer {
@@ -19,4 +24,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+details {
+    margin-left: 40px;
 }
