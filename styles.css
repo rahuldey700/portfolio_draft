@@ -1,30 +1,67 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    margin-left:30 px;
-    margin-bottom: 30px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 20px 0;
     text-align: center;
 }
 
-section {
-    margin: 20px;
-    margin-left:30 px;
-    margin-bottom: 30px;
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
 }
 
-footer {
-    background-color: #f8f9fa;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+nav a.active {
+    color: #0077cc;
 }
-details {
-    margin-left: 40px;
+
+main {
+    width: 85%;
+    max-width: 960px;
+    margin: 40px auto;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+}
+
+img {
+    width: 100%; /* Makes image responsive */
+    max-width: 800px; /* Maximum width of image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Images are block level to allow for margins */
+    margin: 20px auto; /* Adds vertical space and centers image horizontally */
+    border-radius: 8px; /* Optional: adds rounded corners to images */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
+}
+.mobile-image {
+    width: 50%;  /* or any width you want */
+    height: auto; /* maintain aspect ratio */
+}
+video {
+    width: 100%; /* Makes image responsive */
+    max-width: 800px; /* Maximum width of image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Images are block level to allow for margins */
+    margin: 20px auto; /* Adds vertical space and centers image horizontally */
+    border-radius: 8px; /* Optional: adds rounded corners to images */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
 }
