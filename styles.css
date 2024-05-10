@@ -65,3 +65,16 @@ video {
     border-radius: 8px; /* Optional: adds rounded corners to images */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
 }
+
+table.feature-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Adjust width as necessary */
+    border-collapse: collapse;
+}
+
+table.feature-table th, table.feature-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
